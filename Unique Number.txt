@@ -1,0 +1,13 @@
+n=int(input())
+d={}
+a=0
+for i in str(n):
+    if i in d:
+        a=1
+        break
+    else:
+        d[i]=0
+if a==1:
+    print("Not Unique Number")
+else:
+    print("Unique Number")
